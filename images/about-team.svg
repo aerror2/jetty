@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <!-- JETFAY团队 -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3498db" />
+      <stop offset="100%" stop-color="#2980b9" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect x="0" y="0" width="300" height="300" fill="#ecf0f1" />
+  
+  <!-- 装饰元素 -->
+  <path d="M0,0 L300,0 L300,60 Q150,120 0,60 Z" fill="url(#bg-gradient)" opacity="0.8" />
+  <path d="M0,300 L300,300 L300,240 Q150,180 0,240 Z" fill="url(#bg-gradient)" opacity="0.8" />
+  
+  <!-- 团队成员剪影 -->
+  <!-- 中心人物 -->
+  <circle cx="150" cy="130" r="25" fill="#34495e" />
+  <path d="M150,155 L150,210 M120,170 L180,170" stroke="#34495e" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- 左侧人物1 -->
+  <circle cx="90" cy="140" r="20" fill="#2c3e50" />
+  <path d="M90,160 L90,205 M65,175 L115,175" stroke="#2c3e50" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- 左侧人物2 -->
+  <circle cx="40" cy="150" r="15" fill="#2c3e50" />
+  <path d="M40,165 L40,200 M20,180 L60,180" stroke="#2c3e50" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- 右侧人物1 -->
+  <circle cx="210" cy="140" r="20" fill="#2c3e50" />
+  <path d="M210,160 L210,205 M185,175 L235,175" stroke="#2c3e50" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- 右侧人物2 -->
+  <circle cx="260" cy="150" r="15" fill="#2c3e50" />
+  <path d="M260,165 L260,200 M240,180 L280,180" stroke="#2c3e50" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- 航模元素 -->
+  <path d="M150,70 L180,60 L190,70 L180,80 Z" fill="#3498db" stroke="#2980b9" stroke-width="1" />
+  <path d="M150,70 L120,60 L110,70 L120,80 Z" fill="#3498db" stroke="#2980b9" stroke-width="1" />
+  <path d="M150,70 L150,50 L160,40 L140,40 Z" fill="#3498db" stroke="#2980b9" stroke-width="1" />
+  
+  <!-- 团队标识 -->
+  <rect x="75" y="220" width="150" height="40" rx="5" ry="5" fill="#34495e" />
+  <text x="150" y="245" font-family="Arial" font-size="16" font-weight="bold" fill="#ecf0f1" text-anchor="middle">JETFAY TEAM</text>
+  
+  <!-- 装饰图案 -->
+  <circle cx="30" cy="30" r="10" fill="none" stroke="#3498db" stroke-width="2" />
+  <circle cx="270" cy="30" r="10" fill="none" stroke="#3498db" stroke-width="2" />
+  <circle cx="30" cy="270" r="10" fill="none" stroke="#3498db" stroke-width="2" />
+  <circle cx="270" cy="270" r="10" fill="none" stroke="#3498db" stroke-width="2" />
+</svg>

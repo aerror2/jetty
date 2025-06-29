@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- 李教练 - 航模培训中心负责人头像 -->
+  <defs>
+    <linearGradient id="bg-gradient-2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#27ae60" />
+      <stop offset="100%" stop-color="#2ecc71" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景圆形 -->
+  <circle cx="50" cy="50" r="48" fill="url(#bg-gradient-2)" stroke="#fff" stroke-width="2" />
+  
+  <!-- 人物头像 -->
+  <circle cx="50" cy="40" r="20" fill="#ecf0f1" />
+  <path d="M50,60 L50,85 M35,70 L65,70" stroke="#ecf0f1" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- 教练特征 -->
+  <path d="M35,30 L65,30" stroke="#34495e" stroke-width="3" />
+  <path d="M40,25 L60,25" stroke="#34495e" stroke-width="2" />
+  
+  <!-- 眼睛 -->
+  <circle cx="43" cy="40" r="3" fill="#34495e" />
+  <circle cx="57" cy="40" r="3" fill="#34495e" />
+  
+  <!-- 微笑 -->
+  <path d="M40,48 Q50,55 60,48" stroke="#34495e" stroke-width="2" fill="none" />
+  
+  <!-- 装饰元素 - 教学图标 -->
+  <rect x="15" y="15" width="10" height="15" rx="2" ry="2" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1" />
+  <path d="M15,20 L25,20 M15,25 L25,25" stroke="#bdc3c7" stroke-width="1" />
+  
+  <!-- 装饰元素 - 遥控器 -->
+  <rect x="75" y="15" width="10" height="15" rx="2" ry="2" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1" />
+  <circle cx="80" cy="20" r="2" fill="#e74c3c" />
+  <circle cx="80" cy="25" r="2" fill="#f1c40f" />
+  
+  <!-- 装饰元素 - 教学标志 -->
+  <path d="M80,80 L90,80 L85,70 Z" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1" />
+  <path d="M85,80 L85,85" stroke="#ecf0f1" stroke-width="2" />
+  <path d="M82,85 L88,85" stroke="#ecf0f1" stroke-width="1" />
+</svg>
